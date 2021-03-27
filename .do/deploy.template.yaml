@@ -1,11 +1,11 @@
 spec:
- name: sample-python
+ name: helloflaskpython
  services:
-  name: sample-python
-  - environment_slug: python
+  - name: helloworldpython
+  environment_slug: python
   git:
-    branch: master
+    branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-python
+    repo_clone_url: digitalocean/sample-python
   databases:
   - name: example-db
