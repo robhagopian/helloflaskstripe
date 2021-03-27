@@ -1,11 +1,10 @@
 spec:
- name: helloflaskpython
- services:
-  - name: helloflaskpython
-  environment_slug: python
-  git:
-    branch: main
-    deploy_on_push: true
-    repo_clone_url: digitalocean/sample-python
+  name: helloflaskstripe
+  services:
+  - name: helloflaskstripe
+    environment_slug: python
+    git:
+      branch: main
+      repo_clone_url: https://github.com/robhagopian/helloflaskstripe
   databases:
   - name: example-db
