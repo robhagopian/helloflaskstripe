@@ -1,7 +1,7 @@
 spec:
  name: helloflaskpython
  services:
-  - name: helloworldpython
+  - name: helloflaskpython
   environment_slug: python
   git:
     branch: main
