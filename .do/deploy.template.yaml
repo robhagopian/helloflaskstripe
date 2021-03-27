@@ -1,0 +1,11 @@
+spec:
+ name: sample-python
+ services:
+  name: sample-python
+  - environment_slug: python
+  git:
+    branch: master
+    deploy_on_push: true
+    repo: digitalocean/sample-python
+  databases:
+  - name: example-db
