@@ -1,5 +1,7 @@
 # Stripe Payments Demo — Python Server
 
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/robhagopian/helloflaskstripe/tree/main)
+
 This demo uses a simple [Flask](http://flask.pocoo.org/) application as the server.
 
 ## Payments Integration
